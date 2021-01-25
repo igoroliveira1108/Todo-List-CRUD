@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#tarefa{
+    padding: 10px;
+    width: 400px;
+}
+
+
+.btnadd{
+    padding: 10px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.alerts {
+    display: flex;
+    justify-content: center;
+}
+
+.resyes {
+    display: none;
+    margin-top: 30px;
+    background-color: lightgreen;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.resno {
+    display: none;
+    margin-top: 30px;
+    background-color: red;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.container-tarefas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    background: white;
+    color: black;
+    align-items: center;
+}
+
+.tarefa li {
+    flex:1;
+}
+
+.nova-tarefa {
+    padding: 10px;
+    background: white;
+    border: 1px solid black;
+    width: 300px;
+    list-style: none;
+}
+
+.btn-remover, .btn-editar, .btn-fimEdicao{
+    padding: 13px;
+    border: none;
+}
+
+.btn-fimEdicao {
+    background: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-remover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-editar {
+    background: rgb(49, 230, 49);
+    color: white;
+    cursor: pointer;
+}
+
+.fa-check, .fa-trash-alt {
+    pointer-events: none;
+}
+
+
+
