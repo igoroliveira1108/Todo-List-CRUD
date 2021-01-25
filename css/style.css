@@ -73,7 +73,7 @@ form {
     display: flex;
     justify-content: center;
     margin: 1rem;
-    background: white;
+
     color: black;
     align-items: center;
 }
@@ -115,6 +115,25 @@ form {
 
 .fa-check, .fa-trash-alt {
     pointer-events: none;
+}
+
+@media only screen and (max-device-width: 667px) {
+    #tarefa{
+        padding: 10px;
+        width: 300px;
+    }
+    .nova-tarefa {
+        padding: 10px;
+        background: white;
+        border: 1px solid black;
+        width: 200px;
+        list-style: none;
+        font-size: 12px;
+    }
+    .btn-remover, .btn-editar, .btn-fimEdicao{
+        padding: 9px;
+        border: none;
+    }
 }
 
 
