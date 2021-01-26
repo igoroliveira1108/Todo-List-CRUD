@@ -26,7 +26,7 @@ function adicionarTarefa(event){
         // Fazer verificação input vazio
             if (input.value === ''){
                 // jQuery
-                    $(noRes).fadeIn().text('Você digitar algo.')
+                    $(noRes).fadeIn().text('Você deve digitar algo.')
                     setTimeout(() => {
                         $(noRes).hide();
                     }, 2000);
